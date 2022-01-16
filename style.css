@@ -1,0 +1,60 @@
+body {
+  background-image: url("hak ali/IMAGE/background image.jpg");
+  background-color: #cccccc;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ul.navigation li {
+  float: left;
+}
+
+ul.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navigation li a:hover {
+  background-color: #111;
+}
+
+ul.navigation li a.active {
+  background-color: chocolate;
+}
+
+div.background_putih {
+	background-color: white;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+table, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+	font-size: 20px;
+}
+
+td.center {
+	text-align: center;
+}
